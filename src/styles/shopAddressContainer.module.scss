@@ -1,0 +1,44 @@
+.shopAddressContainer{
+    margin-top: calc(78px + 0.5rem);
+    background-color: white;
+}
+.ratingNumberbg{
+    background-color: #4CA72C;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px;
+}
+.shopAddressContainer button{
+    border: 1px solid #ed1c24;
+    color: #ed1c24;
+    background-color: white;
+}
+.shopAddressContainer button:hover{
+    border: 1px solid #ed1c24;
+    background-color: #ed1c24;
+    color: white;
+}
+.profile_photo{
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: #ed1c24; /* Example background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Text color for initials */
+    font-size: 20px; /* Adjust font size as needed */
+    text-transform: uppercase;
+}
+.feedbackContent p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    min-height: 63px;
+}
