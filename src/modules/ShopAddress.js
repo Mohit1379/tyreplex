@@ -11,7 +11,7 @@ function ShopAddress() {
             <div className='col-md-5 col-12 order-md-0 order-1 mt-md-0 mt-4'>
                 <div className='d-flex flex-column'>
                     <div className='d-flex align-items-center'>
-                        <h5 className='m-0 pe-2'>SHREE HEMKUNT TYRES AND SERVICES</h5>
+                        <h5 className='m-0 pe-2'>SHREE TYRES AND SERVICES</h5>
                         <Image src="/verified.svg" width={18} height={18} alt='verified' />
                         <span className='text-success m-0' style={{fontSize:"14px"}}>
                             Verified
