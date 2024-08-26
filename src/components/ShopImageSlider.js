@@ -25,10 +25,18 @@ function ShopImageSlider() {
       className="mySwiper w-100 mt-md-0 m-2"
       breakpoints={{
         768: {
-          slidesPerView: 2.4,
+          slidesPerView: 1.3,
           spaceBetween: 15,
         },
         1024: {
+          slidesPerView: 1.8,
+          spaceBetween: 15,
+        },
+        1200: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        1400: {
           slidesPerView: 2.4,
           spaceBetween: 15,
         },

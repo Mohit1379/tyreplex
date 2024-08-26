@@ -1,6 +1,9 @@
 .shopAddressContainer{
     margin-top: calc(78px + 0.5rem);
     background-color: white;
+    @media(max-width: 1200px){
+        margin-top: calc(78px + 1.5rem);
+    }
 }
 .ratingNumberbg{
     background-color: #4CA72C;

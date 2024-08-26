@@ -40,7 +40,7 @@ function Navbar() {
 								<li className="nav-item dropdown pe-4 pe-md-0 me-0 me-md-4" onMouseEnter={handleMenuHover} onMouseLeave={handleMenuHover}>
 									<a className="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown" href="#" role="button"  aria-expanded="false">Car Tyres</a>
 									<ul className="dropdown-menu">
-                                        <a className="text-primary ps-4 mb-2 mt-3 fw-bold" href="#">Popular Car Tyres</a>
+                                        <p className="text-primary ps-4 mb-2 mt-3 fw-bold" href="#">Popular Car Tyres</p>
 									    <a className="dropdown-item text-primary" href="#">MRF Tyres</a>
 										<a className="dropdown-item text-primary" href="#">CEAT Tyres</a>
 										<a className="dropdown-item text-primary" href="#">GoodYear Tyres</a>
@@ -93,10 +93,9 @@ function Navbar() {
                                         <a className="dropdown-item text-primary" href="#">Wheel Alignment</a>
 									</div>
 								</li>
-			
 							</ul>
+							<p className='m-0  text-primary d-flex align-items-center d-none d-md-block' style={{cursor:"pointer"}}><Image className='me-1' src="/login.svg" width={20} height={20} alt='login' />Login</p>
 						</div>
-						<p className='mb-2 mb-lg-0 text-primary d-flex align-items-center d-none d-md-block' style={{cursor:"pointer"}}><Image className='me-1' src="/login.svg" width={20} height={20} alt='login' />Login</p>
 					</nav>		 
 				</div>
 			</div>

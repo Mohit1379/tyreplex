@@ -8,11 +8,11 @@ function ShopAddress() {
   return (
     <div className={`section-container container ${styles.shopAddressContainer}`}>
         <div className='d-flex flex-wrap'>
-            <div className='col-md-5 col-12 order-md-0 order-1 mt-md-0 mt-4'>
+            <div className='col-md-5 col-xl-5 col-12 order-md-0 order-1 mt-md-0 mt-4'>
                 <div className='d-flex flex-column'>
                     <div className='d-flex align-items-center'>
                         <h5 className='m-0 pe-2'>SHREE HEMKUNT TYRES AND SERVICES</h5>
-                        <Image src="/verified.svg" width={18} height={18} alt='verified' />
+                        <Image src="/verified.svg" width={13} height={13} alt='verified' />
                         <span className='text-success m-0' style={{fontSize:"14px"}}>
                             Verified
                         </span>
@@ -42,7 +42,7 @@ function ShopAddress() {
                     </div>
                 </div>
             </div>
-            <div className='col-md-7 col-12 order-md-1 order-0'>
+            <div className='col-md-7 col-xl-7 col-12 order-md-1 order-0'>
             <ShopImageSlider/>
             </div>
         </div>
